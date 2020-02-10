@@ -1,17 +1,13 @@
 {
-    "name": "contao/skeleton-bundle",
+    "name": "bruellke/caredit-register-bundle",
     "type": "symfony-bundle",
-    "description": "Skeleton for custom Contao 4 bundles",
+    "description": "Caredit register extension for Contao Open Source CMS",
     "homepage": "https://contao.org",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
-            "name": "Leo Feyer",
-            "homepage": "https://github.com/leofeyer"
-        },
-        {
-            "name": "Contao Community",
-            "homepage": "https://contao.org/contributors"
+            "name": "Swen Brüllke",
+            "homepage": "https://github.com/bruellke"
         }
     ],
     "require": {
@@ -33,20 +29,20 @@
         "symfony/phpunit-bridge": "^3.2"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Bruellke\\CareditRegisterBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\": "src/"
+            "Bruellke\\CareditRegisterBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\Tests\\": "tests/"
+            "Bruellke\\CareditRegisterBundle\\Tests\\": "tests/"
         }
     },
     "support": {
-        "issues": "https://github.com/contao/skeleton-bundle/issues",
-        "source": "https://github.com/contao/skeleton-bundle"
+        "issues": "https://github.com/bruellke/caredit-register/issues",
+        "source": "https://github.com/bruellke/caredit-register"
     }
 }

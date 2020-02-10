@@ -1,10 +1,6 @@
-# Contao 4 skeleton bundle
+# Caredit Register Bundle
 
-Contao is an Open Source PHP Content Management System for people who want a
-professional website that is easy to maintain. Visit the [project website][1]
-for more information.
-
-You can use the skeleton bundle as basis for your own Contao bundle.
+Caredit Register Bundle is an extension for Contao. This extension implements a register form in the web content site.
 
 ## Install
 
